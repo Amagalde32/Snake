@@ -1,0 +1,45 @@
+from tkinter import *
+import random
+
+Game_Width = 700
+Game_Height= 700
+Speed = 50
+Space_size = 50
+Body_Parts = 3
+Snake_color = "#00ff00"
+Food_color = "#ff0000"
+Background_color = "#000000"
+
+class Snake:
+    pass
+class Food:
+    pass
+def next_turn():
+    pass
+def change_direction(new direction):
+    pass
+def check_collisions():
+    pass
+def game_over():
+    pass
+
+window = Tk()
+window.title("snake")
+window.resizable(False, False)
+
+Score= 0 
+direction = 'down'
+
+label = Label(window, text= "Score:{}" .format(score), font=('consolas' 40,))
+label.pack()
+              
+canvas = Canvas(window, bg=Background_color, height=Game_Height, width= Game_Width)
+canvas.pack()
+
+window.update()
+
+window_height  
+
+window.mainloop()
+            
+
